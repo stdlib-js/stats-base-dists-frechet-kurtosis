@@ -69,7 +69,7 @@ where `Γ` is the [gamma function][gamma-function].
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-kurtosis@v0.2.0-esm/index.mjs';
 ```
 
 #### kurtosis( alpha, s, m )
@@ -155,7 +155,7 @@ y = kurtosis( 1.0, -1.0, 2.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet-kurtosis@v0.2.0-esm/index.mjs';
 
 var alpha;
 var m;
